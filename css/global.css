@@ -1,7 +1,33 @@
-* {
-    box-sizing: border-box;
+body {
+    display: flex;
+    flex-direction: column;
     margin: 0;
-    padding: 0;
+    min-height: 100vh;
+}
+
+header, footer {
+    background-color: rgb(21, 21, 95);
+}
+
+.middler {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+aside {
+    background-color: rgb(21, 21, 95);
+    flex-basis: 15%;
+}
+
+aside > img {
+    width: 100%;
+    padding-top: 50%;
+    padding-bottom: 50%;
+}
+
+main {
+    flex-grow: 1;
 }
 
 li > a {
@@ -15,7 +41,7 @@ header {
     justify-content: space-between;
     align-items: center;
     /* padding: 30px 10%; */
-    background-color: rgb(21, 21, 95);
+    /* background-color: rgb(21, 21, 95); */
 }
 
 img.logo {
