@@ -27,7 +27,7 @@ aside > img {
 }
 
 main {
-    flex-grow: 1;
+    flex-basis: 70%;
 }
 
 li > a {
@@ -40,8 +40,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding: 30px 10%; */
-    /* background-color: rgb(21, 21, 95); */
 }
 
 img.logo {
@@ -63,6 +61,10 @@ img.logo {
 
 .nav-links > li > a:hover {
     color: lightblue;
+}
+
+footer > p > a {
+    color: white;
 }
 
 /* body {
