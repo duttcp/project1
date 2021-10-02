@@ -21,8 +21,19 @@ header, footer {
 /* background colors and width for sidebars */
 aside {
     background-color: rgb(127, 127, 127);
+    /* position: fixed; */
     flex-basis: 15%;
+    /* top: 0;
+    bottom: 0; */
 }
+
+/* .lefter {
+    left: 0;
+}
+
+.righter {
+    right: 0;
+} */
 
 /* styling for images within sidebars */
 aside > img {
@@ -53,6 +64,7 @@ header {
     align-items: center;
     filter: drop-shadow(0px 4px 15px rgb(0, 0, 0));
     /* position: fixed; */
+    /* width: 100%; */
 }
 
 /* sizing for top left logo image */
