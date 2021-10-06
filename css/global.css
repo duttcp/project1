@@ -100,3 +100,13 @@ footer > p {
 footer > p > a {
     color: white;
 }
+
+/* set main to take up whole space when screen too narrow */
+@media (max-width: 400px) {
+    aside {
+        overflow: hidden;
+    }
+    main {
+        width: 100%;
+    }
+}
